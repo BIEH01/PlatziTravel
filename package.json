@@ -4,8 +4,8 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"predeploy": "tailwind -i ./src/css/tailwind.css -o ./public/styles.css --minify",
-		"deploy": "gh-pages -d public"
+		"predeploy": "echo 'Preparando archivos para el despliegue...'",
+		"deploy": "gh-pages -d dist"
 	},
 	"author": "",
 	"license": "ISC",
